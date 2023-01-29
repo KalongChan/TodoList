@@ -1,0 +1,30 @@
+.todo-add {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.todo-add input {
+  width: 85%;
+  padding: 16px 20px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #000;
+  background: transparent;
+  outline: none;
+  color: #000;
+}
+
+.todo-input::placeholder {
+  color: #000;
+}
+
+.todo-add button {
+  width: 15%;
+  padding: 16px 0;
+  border-radius: 0 4px 4px 0;
+  border: 2px solid #000;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  background: #000;
+  white-space: nowrap;
+}

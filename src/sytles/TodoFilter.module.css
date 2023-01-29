@@ -1,0 +1,64 @@
+.todo-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto 15px auto;
+}
+
+.todo-filter input {
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 2px solid #000;
+  background: transparent;
+  outline: none;
+  width: 60%;
+  color: #000;
+}
+
+.todo-status button {
+  /* width: 60px; */
+  width: 10%;
+  min-width: 45px;
+  padding: 10px 0px;
+  /* border: 2px solid #000; */
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  background: #000;
+  white-space: nowrap;
+}
+
+.todo-status .active {
+  color: #000;
+  background: #fff;
+}
+
+.todo-status :hover {
+  color: #000;
+  background: #fff;
+}
+
+.todo-status :first-child {
+  border-radius: 4px 0 0 4px;
+  border-right: 0;
+}
+
+.todo-status :last-child {
+  border-radius: 0 4px 4px 0;
+  border-left: 0;
+}
+
+@media (max-width: 576px) {
+  .todo-filter {
+    display: inline-block;
+  }
+  .todo-filter input {
+    width: 100%;
+    border-radius: 4px;
+  }
+  .todo-status button {
+    width: 33.33%;
+    margin-top: 15px;
+  }
+}
