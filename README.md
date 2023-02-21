@@ -1,6 +1,6 @@
 # React Todo List
 
-A simple Todo list build with React Hooks.
+A simple Todo list built with React Hooks.
 
 ![image](https://user-images.githubusercontent.com/82305211/215336486-588e1249-c53d-465b-8821-090c5ed4608d.png)
 
