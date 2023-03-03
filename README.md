@@ -14,9 +14,6 @@ A simple Todo list built with React Hooks.
 #### Clone the project<br /> 
 ```git clone https://github.com/KalongChan/React-Todo.git```
 
-#### Go to the project directory<br />
-```cd Netflix-Clone```
-
 #### Install dependencies<br />
 ```npm install```
 
